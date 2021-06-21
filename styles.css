@@ -1,0 +1,22 @@
+.container {
+    margin-top: 50px;
+}
+.images-container {
+	display: flex;
+	cursor: pointer;
+}
+.gallery__item-image {
+	display: flex;
+    flex-direction: column;
+	padding: 2px;
+}
+.bigImg {
+    width: 100%;
+     height: 100%;
+     display: none;
+ }
+ .bigImg.active {
+    display: flex;
+    justify-content: center;
+}
+
